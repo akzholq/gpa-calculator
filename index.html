@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculator GPA</title>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="header-container">
+                    <h1>Simple calculator GPA</h1>
+                </div>
+            </header>
+
+            <main>
+                <div class="section-form">
+                    <div class="form-wrapper">
+                        <div class="form-container1">
+                            <h3>First object credits: <input id="firstObject" placeholder="Write here" type="number"></h3>
+                            <h3>Second object credits: <input id="secondObject" placeholder="Write here" type="number"></h3>
+                            <h3>Third object credits: <input id="thirdObject" placeholder="Write here" type="number"></h3>
+                            <h3>Fourth object credits: <input id="fourthObject" placeholder="Write here" type="number"></h3>
+                            <h3>Fifth object credits: <input id="fifthObject" placeholder="Write here" type="number"></h3>
+                            <h3>Sixth object credits: <input id="sixthObject" placeholder="Write here" type="number"></h3>
+                            <h3>Seventh object credits: <input id="seventhObject" placeholder="Write here" type="number"></h3>
+                        </div>
+
+                        <div class="form-container2">
+                            <h3>First object GPA: <input id="firstGPA" placeholder="Write here" type="number"></h3>
+                            <h3>Second object GPA: <input id="secondGPA" placeholder="Write here" type="number"></h3>
+                            <h3>Third object GPA: <input id="thirdGPA" placeholder="Write here" type="number"></h3>
+                            <h3>Fourth object GPA: <input id="fourthGPA" placeholder="Write here" type="number"></h3>
+                            <h3>Fifth object GPA: <input id="fifthGPA" placeholder="Write here" type="number"></h3>
+                            <h3>Sixth object GPA: <input id="sixthGPA" placeholder="Write here" type="number"></h3>
+                            <h3>Seventh object GPA: <input id="seventhGPA" placeholder="Write here" type="number"></h3>
+                        </div>
+                    </div>
+                        
+                    <div class="results">
+                        <button onclick="calculate();" class="button-result">Calculate GPA</button>
+                        <div id="res"></div>
+                    </div>
+                </div>
+            </main>
+
+            <footer>
+                <div class="footer-container">
+                    <h1>MADE BY AKZHOL TURSYNKHAN</h1>
+                </div>
+            </footer>
+        </div>
+
+        <script src="core.js"></script>
+    </body>
+</html>
